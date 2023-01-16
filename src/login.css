@@ -1,0 +1,247 @@
+.login-base {
+    top: 0;
+    left: 0;
+    user-select: none;
+    bottom: 0;
+    right: 0;
+    margin-top: 32px;
+    height:auto;
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-plate {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(40px);
+    aspect-ratio: 390/450;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-height: calc(var(--window_height_scaled) * 0.772727273 * 1px);
+    height: 77.2727273vh;
+}
+
+.login-title-text {
+    width: 100%;
+    padding-top: 4%;
+    height: 22%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-family: "IBM Plex Sans";
+    line-height: clamp(0rem,  3.4666666vh, 1.35em);
+}
+
+.login-title-welcome {
+    margin: 0;
+    font-weight: 600;
+    color: ghostwhite;
+    font-size: clamp(0rem,  4vh, 1.5em);
+}
+
+.login-title-description {
+    font-weight: 400;
+    font-size: clamp(0rem,  2.6667vh, 1em);
+    color: rgb(190, 180, 180);
+    margin: 0;
+}
+
+.login-entries {
+    gap: 16%;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.login-text-entry {
+    gap: 7%;
+    width: 80%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-family: "IBM Plex Sans";
+    font-weight: 260;
+    color: ghostwhite;
+    font-size: clamp(0rem,  2.22134252vh, 0.833em);
+}
+
+.text-entry {
+    resize: none;
+    height: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.14);
+    backdrop-filter: blur(20px);
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 56%);
+    border-width:  1.7px;
+    color: ghostwhite;
+    font-size: clamp(0rem,  3.4666666vh, 1.1em);
+ }
+
+.text-entry:hover {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 70%);
+    border-width:  1.7px;
+    background-color: rgba(0, 0, 0, 0.16);
+}
+
+.text-entry:focus {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 1);
+    border-width:  1.9px;
+    outline: 0;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+
+.login-bottom-plate {
+    width: 100%;
+}
+
+::-ms-reveal {
+    filter: invert(100%);
+}
+
+.login-base-extras {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5%;
+}
+
+.login-extras {
+    width: 80%;
+    justify-content: right;
+    display: flex;
+    font-family: "IBM Plex Sans";
+    font-weight: 260;
+    color: ghostwhite;
+    font-size: clamp(0rem,  2.22134252vh, 0.9em);
+}
+
+.login-remember {
+    display: inline-flex;
+    white-space: nowrap;
+    margin-right: auto;
+}
+
+input.login-remember-checkbox {
+    margin-left: 0;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    outline-color: rgba(255, 255, 255, 56%);
+    outline-style: solid;
+    outline-width: 1.7px;
+    border-radius: 5px;
+    aspect-ratio: 1;
+    appearance: none;
+    margin-bottom: 0;
+    margin-right: 6%;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+}
+
+input.login-remember-checkbox:checked {
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(
+            #57a3f5,
+            #814bff
+    );
+}
+
+input.login-remember-checkbox:checked:after {
+    display: block;
+}
+
+
+input.login-remember-checkbox:hover {
+    outline-color: rgba(255, 255, 255, 80%);
+    outline-style: solid;
+    outline-width: 1.7px;
+    background-color: rgba(0, 0, 0, 0.16);
+}
+
+input.login-remember-checkbox {
+    width: 80%;
+    margin-top: 2.5%;
+    height: 80%;
+}
+input.login-remember-checkbox:after {
+    font-weight: 900;
+    content: "\2713";
+    font-size: clamp(0rem,  2.22134252vh, 0.9em);
+    color: whitesmoke;
+    display: none;
+}
+
+.login-button:hover {
+    border-style: solid;
+    border-width: 1.9px;
+    border-color: rgba(255, 255, 255, 40%);
+    cursor: pointer;
+    filter: brightness(107%);
+}
+
+.login-button-base {
+    padding-top: 14%;
+    width: 100%;
+    height: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button {
+    background: linear-gradient(-90deg,
+            #57a3f5,
+            #814bff
+    );
+    outline: 0;
+    border-style: none;
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.2);
+    font-family: "IBM Plex Sans";
+    color: ghostwhite   ;
+    font-weight: 500;
+    font-size: clamp(0rem,  3.2vh, 1.2em);
+}
+
+.sign-up-message {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    color: ghostwhite;
+    font-size: clamp(0rem,  2.37333333vh, 0.89em);
+}
+
+.gradient-sign-up {
+    font-weight: 500;
+    color: #57a3f5;
+}
+
+.clickable-text:hover {
+    cursor: pointer;
+    filter: brightness(87%);
+}

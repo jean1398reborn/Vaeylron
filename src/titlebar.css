@@ -1,0 +1,46 @@
+.titlebar {
+    height: 32px;
+    outline-style: solid;
+    outline-color: rgba(255, 255, 255, 0.05);
+    outline-width: 2px;
+    user-select: none;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(90px);
+}
+.titlebar-button {
+    background: none;
+    outline: none;
+    border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 32px;
+}
+
+
+.titlebar-icon {
+    background: none;
+    outline: none;
+    border: none;
+    display: inline-flex;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: 9px;
+    width: 18px;
+    height: 18px;
+}
+
+.size-change-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.exit-button:hover {
+    background: rgba(255, 0, 0, 0.8);
+}

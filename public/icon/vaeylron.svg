@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4096 4096">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="5.23" y1="2047.5" x2="4089.41" y2="2047.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#818dff"/>
+      <stop offset=".98" stop-color="#571f9f"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="2047.91" cy="2047.5" fx="2047.91" fy="2047.5" r="1910.2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6565ff" stop-opacity="0"/>
+      <stop offset=".98" stop-color="#000" stop-opacity=".2"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-2" x1="903.94" y1="2048.02" x2="3191.98" y2="2048.02" gradientTransform="translate(4095.98 .06) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".98" stop-color="#ebc7ef"/>
+    </linearGradient>
+  </defs>
+  <polygon class="cls-3" points="3068.36 279 1026.27 279 5.23 2047.5 1026.27 3816 3068.36 3816 4089.41 2047.5 3068.36 279"/>
+  <polygon class="cls-2" points="3068.96 279 1026.87 279 5.82 2047.5 1026.87 3816 3068.96 3816 4090 2047.5 3068.96 279"/>
+  <path class="cls-1" d="M3191.98,2048.02L2047.96,904,903.94,2048.02l1144.02,1144.02,1144.02-1144.02Zm-1859.84-1.33l715.35-715.35,715.35,715.35-715.35,715.35-715.35-715.35Z"/>
+</svg>
