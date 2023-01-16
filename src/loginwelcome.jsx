@@ -28,7 +28,7 @@ function Login() {
                         <div className="remember-label">Remember Me</div>
                     </div>
                     <div className="login-forgot">
-                        <div className="clickable-text">Forgot Something?</div>
+                        <div className="clickable-text" tabIndex="-1">Forgot Something?</div>
                     </div>
                 </div>
                 </div>
@@ -38,7 +38,7 @@ function Login() {
                     </button>
                 </div>
                 <div className="sign-up-message">
-                    <div className="clickable-text">Dont have an account? <span className="gradient-sign-up">Sign Up</span></div>
+                    <div className="clickable-text" tabIndex="-1">Dont have an account? <span className="gradient-sign-up">Sign Up</span></div>
                 </div>
             </div>
         </div>

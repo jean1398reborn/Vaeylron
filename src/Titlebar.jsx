@@ -28,19 +28,19 @@ function Titlebar() {
     return (
       <div data-tauri-drag-region className="titlebar">
         <img className = "titlebar-icon" src="/icon/vaeylron.svg" alt="vaeylron"/>
-        <button className="titlebar-button size-change-button" id="titlebar-minimize" onClick={() => invoke("window_minimise")}>
+        <button className="titlebar-button size-change-button" id="titlebar-minimize" tabIndex="-1" onClick={() => invoke("window_minimise")}>
           <img
               src="/titlebar/minimise.svg"
 
               alt="minimise"/>
         </button>
-        <button className="titlebar-button size-change-button" id="titlebar-maximize" onClick={() => invoke("toggle_maximise")}>
+        <button className="titlebar-button size-change-button" id="titlebar-maximize" tabIndex="-1" onClick={() => invoke("toggle_maximise")}>
           <img
               src="/titlebar/maximise.svg"
               alt="maximize"
               id = "maximise-button"/>
         </button>
-        <button className="titlebar-button exit-button" id="titlebar-close" onClick={() => invoke("window_close")}>
+        <button className="titlebar-button exit-button" id="titlebar-close" tabIndex="-1" onClick={() => invoke("window_close")}>
           <img
               src="/titlebar/exit.svg"
               alt="exit"

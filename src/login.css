@@ -172,11 +172,14 @@ input.login-remember-checkbox:checked:after {
 }
 
 
-input.login-remember-checkbox:hover {
-    outline-color: rgba(255, 255, 255, 80%);
-    outline-style: solid;
-    outline-width: 1.7px;
-    background-color: rgba(0, 0, 0, 0.16);
+input.login-remember-checkbox:hover, input.login-remember-checkbox:focus {
+    outline-color: rgba(255, 255, 255, 80%); !important
+    outline-style: solid; !important
+    outline-width: 1.7px; !important
+    background-color: rgba(0, 0, 0, 0.16); !important
+    width: 80%; !important
+    margin-top: 2.5%; !important
+    height: 80%; !important
 }
 
 input.login-remember-checkbox {
@@ -192,7 +195,7 @@ input.login-remember-checkbox:after {
     display: none;
 }
 
-.login-button:hover {
+.login-button:hover, .login-button:focus {
     border-style: solid;
     border-width: 1.9px;
     border-color: rgba(255, 255, 255, 40%);
@@ -215,8 +218,8 @@ input.login-remember-checkbox:after {
             #814bff
     );
     outline: 0;
-    border-style: none;
     border-radius: 10px;
+    border-style: none;
     width: 80%;
     height: 100%;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.2);
@@ -245,3 +248,12 @@ input.login-remember-checkbox:after {
     cursor: pointer;
     filter: brightness(87%);
 }
+
+/*
+.clickable-text:focus {
+    outline: rgba(255, 255, 255, 70%) solid 1px;
+    outline-offset: 3px;
+    border-radius: 3px;
+}
+
+ */

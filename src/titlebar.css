@@ -11,6 +11,7 @@
     backdrop-filter: blur(90px);
 }
 .titlebar-button {
+
     background: none;
     outline: none;
     border: none;
