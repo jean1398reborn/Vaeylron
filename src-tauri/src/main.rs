@@ -41,7 +41,7 @@ fn main() {
     tauri::Builder::default()
         .setup(|app| {
             let window = app.get_window("main").unwrap();
-            window.set_title("Vaeylron Launcher").expect("Failed to set title");
+            window.set_title("Vaeylron").expect("Failed to set title");
             window.set_min_size(Some(LogicalSize::new(168.0, 32.0))).expect("Failed to set minimum window size");
             set_shadow(&window, true).expect("Unsupported platform!");
             Ok(())

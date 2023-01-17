@@ -1,5 +1,5 @@
 [package]
-name = "vaeylron_launcher"
+name = "vaeylron"
 version = "0.0.0"
 description = "One of the game launchers of all time"
 authors = ["Stellaurora"]

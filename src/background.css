@@ -1,13 +1,14 @@
 :root {
-  background:
+    background:
           linear-gradient(
-                  rgba(0, 0, 0, 0.3),
-                  rgba(0, 0, 0, 0.3 )
+                  rgba(0, 0, 0, 0.4),
+                  rgba(0, 0, 0, 0.4)
           ),
 
-          url("/battle_breakers_background.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+          url("/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 70%;
 }
 
 :root {
@@ -26,7 +27,7 @@ html, body {
   position: absolute;
   width: 100%;
   height: 100vh;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(15px);
 }
 
 :root {
